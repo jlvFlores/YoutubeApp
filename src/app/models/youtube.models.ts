@@ -14,7 +14,7 @@ export interface Item {
 }
 
 export enum ItemKind {
-    YoutubePlayListItem = "youtube#playlistItem",
+    YoutubePlayListItem = 'youtube#playlistItem',
 }
 
 export interface Video {
@@ -30,15 +30,15 @@ export interface Video {
 }
 
 export enum ChannelID {
-    UCUAPTYj15JSkETGnEseaFFg = "UCUAPTYj15JSkETGnEseaFFg",
+    UCUAPTYj15JSkETGnEseaFFg = 'UCUAPTYj15JSkETGnEseaFFg',
 }
 
 export enum ChannelTitle {
-    FernandoHerrera = "Fernando Herrera",
+    FernandoHerrera = 'Fernando Herrera',
 }
 
 export enum PlaylistID {
-    UUuaPTYj15JSkETGnEseaFFg = "UUuaPTYj15JSkETGnEseaFFg",
+    UUuaPTYj15JSkETGnEseaFFg = 'UUuaPTYj15JSkETGnEseaFFg',
 }
 
 export interface ResourceID {
@@ -47,7 +47,7 @@ export interface ResourceID {
 }
 
 export enum ResourceIDKind {
-    YoutubeVideo = "youtube#video",
+    YoutubeVideo = 'youtube#video',
 }
 
 export interface Thumbnails {

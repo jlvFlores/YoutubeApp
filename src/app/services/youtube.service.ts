@@ -33,7 +33,9 @@ export class YoutubeService {
         return resp.items;
       }),
 
-      map( items => items.map( video => video.snippet ) );
+      map( items => items.map( video => video.snippet ) )
+
+      );
   }
 
 }
